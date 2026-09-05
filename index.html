@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consultar CNPJ</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="cabecalho">
+      <div class="cabecalho-meta">
+        <span class="badge"><span class="badge-dot"></span>LOCAL · CONSULTA</span>
+      </div>
+      <h1>Consultar <span class="destaque">CNPJ</span><span class="cursor">_</span></h1>
+      <p class="subtitulo">Digite um nome de empresa por linha, busque o CNPJ e o link da fonte.</p>
+    </header>
+
+    <section class="painel painel-entrada">
+      <div class="linha-rotulo">
+        <label for="empresas" class="rotulo-fraco">&gt; Lista de empresas</label>
+      </div>
+      <textarea id="empresas" placeholder="Empresa A
+Empresa B
+Empresa C"></textarea>
+
+      <div class="acoes">
+        <button id="btnBuscar" class="botao botao-destaque">▶ BUSCAR CNPJS</button>
+        <span id="status" class="status-texto"></span>
+      </div>
+    </section>
+
+    <div class="titulo-resultados">
+      <span class="titulo-resultados-esq"><span class="destaque">//</span> Resultado</span>
+    </div>
+
+    <section class="painel painel-tabela" id="resultadosCard" hidden>
+      <table id="tabelaResultados">
+        <thead>
+          <tr>
+            <th class="col-idx">#</th>
+            <th class="col-url">Empresa</th>
+            <th class="col-res">CNPJ</th>
+            <th class="col-status">Link</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
