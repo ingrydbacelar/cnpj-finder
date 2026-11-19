@@ -3,19 +3,7 @@ import time
 import re 
 
 API_KEYS = [
-    "AIzaSyAhxF6PUuC_Y7G04O7dXyycKp10F3DN3ZE",
-    "AIzaSyAU1ETESDMXKmFpjKI-NBFBx9MmePrxxQk",
-    "AIzaSyBDTHxEmm2LsBAvCGMRHbaqgpEOSNepLzM",
-    "AIzaSyDHePVmaWSpixhiEdcj-C470YeAKth38dI",
-    "AIzaSyAkr373yZgGOmsU6p0jGhO7z1FIiNBxELw",
-    "AIzaSyCuIWnbKDAVyM4UoQKwKjf7SJk9-jBBm-U",
-    "AIzaSyAB_0rkOoYL_TTle4fx8ITBct4BgPkOV1o",
-    "AIzaSyDnGTTObFZWnKOEeXTmyuwADDQ1J7isa8o",
-    "AIzaSyC0v6VwNK_awjfLWRfBrhgt_307-YMK35E",
-    "AIzaSyAkNdzaR2Y33IdahwR2zXBGTfXGGhy5S3Q",
-    "AIzaSyAnEux9X4tSNgm7MYWF6KTRcbWsrIa1JKg",
-    "AIzaSyA1kMgZP4ZlZcyJjBFHYuZIPQwTjKsC6gI",
-    "AIzaSyA7RvFrmXjsektOq8en5qmILRDxsA2q8BA",
+   
 ]
 
 CSE_ID = "84bc418be643b4ef2"
